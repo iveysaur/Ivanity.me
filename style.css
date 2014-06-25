@@ -1,0 +1,104 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11pt;
+	margin: 0px;
+	background-color: #575261;
+	color: #554c67;
+}
+a{
+	text-decoration: none;
+	color: #A294BD;
+}
+a:hover{
+	color: #575261;
+}
+
+h1{
+	font-size: 28px;
+	color: #C8C4CF;
+	font-family: 'Droid Serif', serif;
+	margin: 7px auto;
+}
+h2{
+	font-size: 20px;
+	border-bottom: 1px solid #777;
+	color: #2c1f46;
+}
+
+img a, a img {
+	border: none;
+	text-decoration: none;
+}
+p{
+	padding: 10px;
+}
+
+#about{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 75px;
+	display: block;
+	background-color: #38353D;
+	padding: 10px;
+	color: #C8C4CF;
+	z-index: 2;
+}
+
+#desc {
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 10pt;
+}
+
+#links {
+	position:  absolute;
+	right: 30px;
+	top: 25px;
+	text-align: right;
+}
+#links a {
+	display: inline-block;
+	padding: 5px;
+	color: #C8C4CF;
+}
+
+#links a:hover {
+	color: #918291;
+}
+
+#icon{
+	background-image: url('icon.jpg');
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	position: fixed;
+	left: 50%;
+	margin-left: -75px;
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	z-index: 3;
+}
+
+.post{
+	width: 800px;
+	background-color: #FBF9FF;
+	display: block;
+	position: relative;
+	top: 100px;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 5px;
+	z-index: 1;
+}
+.post span{
+	text-align: right;
+	float: right;
+	font-weight: bold;
+}
+
